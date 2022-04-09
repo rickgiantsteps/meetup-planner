@@ -1,0 +1,11 @@
+:root {
+    --white: #fff;
+  }
+  
+  img.framed {
+    max-width: 100%;
+    height: auto;
+    box-shadow:
+      -50px -50px 0 -40px var(--white),
+      50px 50px 0 -40px var(--white);
+  }
